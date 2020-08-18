@@ -13,7 +13,7 @@ const SearchBar = (props) => {
         <div className="search-bar ui segment" style={{backgroundColor: 'red'}}>
             <form className="ui form" onSubmit={onFormSubmit} style={{backgroundColor:'red'}}>
                 <div className="field">
-                    <label style={{color:'white'}}> <h2>VideoHooks</h2> </label>
+                    <label style={{color:'white'}}> <h2>VideoTube</h2> </label>
                     <input 
                         type="text"
                         value={term}
