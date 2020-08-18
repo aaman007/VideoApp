@@ -1,0 +1,16 @@
+.video-item {
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: whitesmoke;
+}
+
+.video-item.item img {
+    max-width: 150px;
+}
+
+.video-item:hover {
+    opacity: 1;
+    background-color: aliceblue ;
+}
